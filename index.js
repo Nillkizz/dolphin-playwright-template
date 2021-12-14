@@ -1,10 +1,8 @@
-import dotenv from "dotenv";
 import config from "config";
 import { chromium } from "playwright";
 
 import Dolphin from "./modules/dolphin_anty/dolphin_anty.js";
 
-dotenv.config();
 
 const dolphin = new Dolphin({ profile_name: "ydirect1" });
 dolphin.once("profile_started", main);

@@ -1,8 +1,11 @@
+import dotenv from "dotenv";
 import fetch from "node-fetch";
 import EventEmitter from "events";
 
 import Input from "./input.js";
 
+
+dotenv.config();
 /**
  * @fires logged_in
  * @fires profiles_fetched
