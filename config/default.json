@@ -1,0 +1,22 @@
+{
+  "Example": {
+    "pages": [
+      {
+        "script" : "ya",
+        "searchString": "github nillkizz",
+        "selectors": {
+          "searchInput": ".search2__input input",
+          "searchButton": ".search2__button button" 
+        }
+      },
+      {
+        "script" : "google",
+        "searchString": "youtube nillkizz",
+        "selectors": {
+          "searchInput": "input[name=q]",
+          "searchButton": "input[type=submit][aria-label='Google Search']" 
+        }
+      }
+    ]
+  }
+}
